@@ -3,8 +3,7 @@
 okay working on getting the training and test data csv's from https://www.kaggle.com/c/facial-keypoints-detection/data uploaded, but they're large files so until that works just go there and download local.
 needs Git Large File Storage to imports into git, as the training is over 50 mb
 
-
-So order of operations, take the training data out of the training/ file, put an unzipped copy into the data folder, and then reference the data folder not the training folder as its locations, keeps the training csv clean
+## So order of operations, take the training data out of the training/ file, put an unzipped copy into the data folder, and then reference the data folder not the training folder as its locations, keeps the training csv clean
 Same goes for test, take it out of test, add it to demo and work from there.
 
 
@@ -13,12 +12,12 @@ There are 4 walkthrus that are good and what we want to do, the first is this on
 https://towardsdatascience.com/implementing-snapchat-like-filters-using-deep-learning-13551940b174
 
 tried replicating his code, its 3 years out of date and the corresponding py and python files are:
-read_data_face_detection.py
-read_data_face_detection.ipynb
-training_face_detection.py
-training_face_detection.ipynb
-face_detect_demo.ipynb
-face_detect_demp.py
+	read_data_face_detection.py,
+	read_data_face_detection.ipynb,
+	training_face_detection.py,
+	training_face_detection.ipynb,
+	face_detect_demo.ipynb,
+	face_detect_demp.py,
 
 
 (Will put these in a directory of there own)
